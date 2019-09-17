@@ -81,3 +81,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# IDea Local Files
+
+.idea/
+
