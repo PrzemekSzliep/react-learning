@@ -11,14 +11,17 @@ class Column extends React.Component {
     state = {
         cards: this.props.cards || [],
     }
+
     static propTypes = {
         title: PropTypes.node,
         cards: PropTypes.array,
         icon: PropTypes.node,
     }
+
     static defaultProps = {
         icon: settings.defaultColumnIcon,
     }
+
     addCard(title){
         this.setState(state => (
             {
