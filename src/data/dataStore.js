@@ -10,8 +10,19 @@ export const settings = {
         defaultText: 'Search...',
         icon: 'search',
     },
+    info: {
+        title: 'About us',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        image: 'https://image.freepik.com/free-vector/abstract-particles-background-with-light-effect_1017-20135.jpg',
+    },
+    faq: {
+        title: 'FAQ',
+        desc: 'Text for FAQ: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        image: 'https://image.freepik.com/free-vector/abstract-particles-background-with-light-effect_1017-20135.jpg',
+    },
     defaultListDescription: '<p>I can do all the things!!!</p>',
     defaultColumnIcon: 'list-alt',
+    logo: 'futbol',
 };
 
 export const pageContents = {
